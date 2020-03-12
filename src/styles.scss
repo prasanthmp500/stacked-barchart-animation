@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+.msgdelivered {
+    fill: #00ff00;
+    opacity: .5;
+}
+
+
+.msgundelivered {
+    fill: #ff0000;
+    opacity: .5;
+}
+
+.msgenroute {
+    fill: #0000ff;
+    opacity: .5;
+}
+
+.msgexpired {
+    fill: #fff000;
+    opacity: .5;
+}
+
+.msgdelivered:hover {
+
+    fill: #00ff00;
+    opacity: 1;
+  
+}
+
+
+.msgundelivered:hover {
+
+    fill: #ff0000;
+    opacity: 1;
+  
+}
+
+.msgenroute:hover {
+
+    fill: #0000ff;
+    opacity: 1;
+  
+}
+
+.msgexpired:hover {
+
+    fill: #fff000;
+    opacity: 1;
+
+}
+
+div.tooltip {	
+  position: absolute;			
+  text-align: left;			
+  height: auto;					
+  padding: 5px;				
+  font: 12px sans-serif;	
+  font-weight: normal;	
+  background: #ffffca;	
+  border: 1px;		
+  border-radius: 8px;	
+  border-color: black;		
+  border-style: solid;
+}
+
+.pieChartOuterLabel {
+  font-size: 1em;
+  fill: black;
+  font-weight: bold;
+  font-family: 'Times New Roman, Times, serif';
+}
